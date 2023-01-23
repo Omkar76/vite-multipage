@@ -7,6 +7,12 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Both links point to same page because of using redirectToDir plugin. check <a href="https://github.com/Omkar76/vite-multipage/blob/main/vite.config.ts">
+        vite.config.ts
+        </a>
+      </h1>
+      <a href="/reports"><h1>/reports</h1></a>
+      <a href="/reports/"><h1>/reports/</h1></a>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
